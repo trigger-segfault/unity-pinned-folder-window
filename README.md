@@ -3,6 +3,8 @@ An isolated view for folders that won't change due to file selections, *unlike t
 
 Useful for keeping direct access to a specific folder where you're frequently dragging assets out of into the Inspector, etc.
 
+**Disclaimer:** Designed for Unity 2022.3.22f1 (for VRChat), so it's possible this may not work with newer or older Unity versions, as it relies on internal styles used by the Project window.
+
 ## How To Use
 * Place the file `PinnedFolderWindow.cs` into your Unity project in `Assets/Editor/` (or under any `Editor/` folder).
 * A Pinned Folder can be opened from **Window** &gt; **Trigger Segfault** &gt; **New Pinned Folder** -or- **Assets** &gt; **Trigger Segfault** &gt; **New Pinned Folder** (Note that **Assets** is also the context menu for right clicking in the Project window).
